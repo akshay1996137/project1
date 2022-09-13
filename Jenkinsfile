@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'featuer-1 - pipeline'
+                echo 'featuer-1 - pipeline multi- auto' 
             }
         }
     }
