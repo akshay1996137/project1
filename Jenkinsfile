@@ -6,7 +6,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'featuer-1 - pipeline multi- auto' 
-                sh 'touch ak.txt'
+                sh 'touch ak4.txt'
             }
         }
     }
