@@ -6,7 +6,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'master-pipeline multi-change-auto'
-                sh 'touch ak1.txt'
+                sh 'touch ak3.txt'
             }
         }
     }
